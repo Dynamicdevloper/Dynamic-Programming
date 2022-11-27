@@ -22,8 +22,10 @@ public class MaxPathSum {
 //         return max;
 //*****************************************************//
         int m=matrix.length;
-        int n=matrix[0].length;
+        int n=matrix[0].length;//dynamic
         int dp[][] =new int[m+1][n+1];
+        
+        
         
         for(int i=0; i<m; i++){
             dp[i][n]=(int)-1e9;
